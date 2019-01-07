@@ -1,0 +1,164 @@
+.configBox {
+	margin-top: 5px;
+	margin-left: 5px;
+	background-color: #D3D9D9;
+	box-shadow: 2px 2px 2px rgb(87, 62, 27);
+	border-radius: 3%;
+	width: 450px;
+	height: 38px;
+	font-size: 25px;
+}
+
+.query_button {
+	background-color: rgb(226, 80, 90);
+	color: white;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	cursor: pointer;
+	width: 60px;
+	height:30px;
+	margin-left:10px;
+}
+ 
+select, select option {
+	background-color: #808080;
+	color: #ffffff;
+	border-radius: 6px;
+}
+
+.select_sex {
+	font-size: 22px;
+	width: 15%;
+	height: 32px;
+}
+
+.select_catalog {
+	font-size: 22px;
+	width: 24%;
+	height: 32px;
+	text-align: center;
+}
+/*******************************************/
+
+.add_clothBox {
+background-size: 100%;
+	background: url("../images/ui/glass.png");
+	box-shadow: -4px 7px 46px 2px rgba(0, 0, 0, 0.3);
+	width: 240px;
+	height: auto;
+	margin-left: 100px;
+	margin-top: 40px;
+	border: solid #000 1px;
+	float: left;
+}
+
+.title {
+	color: black;
+	text-align: center;
+	width: 100%;
+	height: 30px;
+	background: url(../images/ui/suitTitle.png) no-repeat center;
+	background-size: 100% 100%;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+input[type="text"] {
+	width: 150px;
+	height: 28px;
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	background: transparent;
+	font-size: 20px;
+	outline: none;
+}
+
+input[type="text"]:focus {
+	border-bottom-color: #808080;
+}
+
+input[type="text"]:active {
+	border: none;
+	/*border-bottom: 1px solid rgba(0, 0, 0, 0.4);*/
+}
+#select_cloth_sex,#select_cloth_catalog{
+	width: 150px;
+	height: 28px;
+	font-size: 20px;
+}
+.add_button {
+	background-color: rgb(63, 125, 195);
+	color: white;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	cursor: pointer;
+	width: 60px;
+	height:30px;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+
+
+/*******************************************/
+.clothBox {
+	background-size: 100%;
+	background: url("../images/ui/glass.png");
+	box-shadow: -4px 7px 46px 2px rgba(0, 0, 0, 0.3);	
+	width: 350px;
+	height: auto;
+	margin-left: 80px;
+	margin-top: 40px;
+	float: left;
+	border: 2px solid  black;
+}
+
+
+.change_button {
+	background-color: rgb(63, 125, 195);
+	color: white;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	cursor: pointer;
+	width: 60px;
+	height:30px;
+	margin-left:10px; 
+	margin-top:10px;
+}
+
+
+.del_button {
+	background-color: rgb(226, 80, 90);
+	color: white;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	cursor: pointer;
+	width: 60px;
+	height:30px;
+	margin-left:10px; 
+	margin-top:10px;
+}
+
+input[type="file"] {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+
+#sex,#catalog{
+	width: 140px;
+	height: 28px;
+	font-size: 20px;
+}
+
+
+#filebox {
+	float: left;
+}

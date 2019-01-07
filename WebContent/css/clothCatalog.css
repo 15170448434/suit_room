@@ -1,0 +1,83 @@
+.add_catalogBox {
+	background-color: rgba(202, 225, 255, 0.5);
+	box-shadow: -4px 7px 46px 2px rgba(0, 0, 0, 0.3);
+	width: 230px;
+	height: auto;
+	margin-left: 5%;
+	margin-top: 5%;
+	border: solid #000 1px;
+	float: left;
+}
+
+.catalogBox {
+	background-color: rgba(202, 225, 255, 0.5);
+	box-shadow: -4px 7px 46px 2px rgba(0, 0, 0, 0.3);
+	width: 230px;
+	height: auto;
+	margin-left: 5%;
+	margin-top: 5%;
+	border: solid #000 1px;
+	float: left;
+}
+
+.title {
+	color:DARKSLATEGRAY;
+	text-align: center;
+	width: 100%;
+	height: 30px;
+	background: url(../images/ui/suitTitle.png) no-repeat center;
+	background-size: 100% 100%;
+	font-size: 20px;
+	vertical-align: middle
+}
+.add_button{
+	background-color: rgb(63, 125, 195);
+	color: white;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	cursor: pointer;
+	width: 50px;
+	margin-left: 5px;
+	
+}
+
+.change_button {
+	background-color: rgb(63, 125, 195);
+	color: white;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	cursor: pointer;
+	width: 50px;
+	margin-left: 5px;
+}
+
+.del_button {
+	background-color: rgb(226, 80, 90);
+	color: white;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	cursor: pointer;
+	width: 50px;
+	margin-right: 5px;
+}
+input[type="text"] {
+	float:right;
+	width: 170px;
+	height: 28px;
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	background: transparent;
+	font-size: 20px;
+	outline: none;
+}
+input[type="text"]:focus {
+	border-bottom-color: #808080;
+}
+
+input[type="text"]:active {
+	border: none;
+	/*border-bottom: 1px solid rgba(0, 0, 0, 0.4);*/
+}

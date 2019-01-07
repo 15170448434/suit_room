@@ -1,0 +1,219 @@
+
+.dress {
+  position: absolute;
+  top: 50px;
+  height:520px;
+  width: 420px;
+  left: 20px;
+  float: left;
+  z-index: 800;
+   overflow-y: auto;
+   border-left:none; 
+   border-top:1px solid #ccc; 
+   border-bottom:none;
+   border-right:none; 
+}
+.dress::-webkit-scrollbar {/*滚动条整体样式*/
+            width: 0px;     /*高宽分别对应横竖滚动条的尺寸*/
+            height: 0px;
+        }
+.dress::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+            border-radius: 5px;
+            -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0);
+            background: rgba(0,0,0,0.2);
+        }
+.dress::-webkit-scrollbar-track {/*滚动条里面轨道*/
+magin-top:20px;
+            -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0);
+            border-radius: 0;
+            background: rgba(0,0,0,0.1);
+        }
+.dressBox {
+  display: block;
+  background-size: 100%;
+  background-image: url("../images/ui/glass.png");
+  box-shadow: 4px 4px 10px #808080;
+  float: left;
+  width: 190px;
+  height: 140px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.dressInfo {
+  padding: 5px 10px 10px 5px;
+  font-size: 16px;
+}
+.dressInfo p{
+  width:auto;
+}
+.menu {
+	line-height:30px;
+	 height: 30px;
+  float: right;
+}
+.cloth_menu {
+  width: 30px;
+  height: 30px;
+}
+.show_dress {
+  position: absolute;
+  height: 670px;
+  width: 350px;
+  left: 380px;
+  top: 80px;
+  z-index: 799;
+  float: left;
+}
+.modelBox{
+  width: 360px;
+  height: 610px;
+  left: -5px;
+}
+.model {
+  position: absolute;
+  width: 360px;
+  height: 610px;
+  left: -5px;
+  background-size: 100%;
+}
+
+.ground {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  left: -75px;
+  top: 170px;
+  background: url(../images/ui/ground.png);
+  background-size: 100%;
+  z-index: -1;
+}
+.show_cloth {
+  position: absolute;
+  left: 700px;
+  width: 260px;
+  top: 20px;
+  height: auto;
+}
+.cloth_catalog {
+  top: 10px;
+  width: 260px;
+  height: 30px;
+  float: left;
+  box-shadow: 4px 4px 10px #808080;
+}
+select{
+  background-color: #808080;
+  color: #ffffff;
+  font-size: 18px;
+  width: 135px;
+  height: 30px;
+}
+select option {
+  background-color: #808080;
+  color: #ffffff;
+  font-size: 18px;
+  width: auto;
+  height: 30px;
+}
+option:hover{
+  background-color: #808080;
+  color:#ffffff;  
+}
+.cloth {
+  overflow-y: auto;
+  position: absolute;
+  top: 40px;
+  height: 720px;
+  margin-right: 5px;
+  width: 260px;
+  float: left;
+  z-index: 800;
+}
+.clothBox {
+  height: 400px;
+  width: 220px;
+  left: 10px;
+  margin-top:20px;
+  background-size: 100%;
+  background: url("../images/ui/glass.png");
+  box-shadow: 4px 4px 10px #808080;
+}
+
+.addCloth {
+	position: absolute;
+	margin-right:10px;
+  width:60px;
+  height:60px;
+  z-index: 500;
+  cursor: pointer;
+}
+.clothImgBox {
+  width: 232px;
+  height: 390px;
+  z-index: 499;
+  overflow:hidden;
+  position: absolute;
+}
+.cloth_img {
+  width: 232px;
+  height: 390px;
+  z-index: 499;
+  background-size: 100%;
+}
+
+.cloth_info {
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 10px;
+  z-index: 500;
+}
+
+.cloth_info p {
+  font-size: 17px;
+}
+p {
+  margin-block-start: 7px;
+  margin-block-end: 4px;
+}
+font {
+  border-radius: 8px;
+  padding: 1px 5px 1px 2px;
+}
+.cloth_number {
+  background-color: #cb0606;
+  color: #fce402;
+}
+.cloth_name {
+  background-color: #0458ac;
+  color: #fce402;
+}
+.cloth_price {
+  background-color: #282d32;
+  color: #d2dfe1;
+}
+.price {
+  background-color: #d6dde4;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  position: absolute;
+  text-align: center;
+  align-content: center;
+  left: 345px;
+  top: 680px;
+}
+.price p {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+.priceText {
+	min-width:100px;
+  color: #565656;
+}
+.sum {
+  background-color: #282d32;
+  color: #b7bbb4;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  margin-right: 1px;
+  overflow: hidden;
+}

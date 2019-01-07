@@ -1,0 +1,145 @@
+#background_re {
+	background: url(../images/ui/RWindowBg.jpg);
+	background-size: 100% ;
+	width: 100%;
+	height: 1080px;
+}
+
+label {
+	cursor: pointer;
+}
+
+.topText {
+	background-color: rgba(0, 0, 1, 0.5);
+	color: white;
+	text-align: center;
+	height: 30px;
+	font-size: 20px;
+}
+
+.registerForm {
+	box-shadow: -4px 7px 46px 2px rgba(0, 0, 0, 0.2);
+	margin-top: 10%;
+	margin-left: 40%;
+	width: 350px;
+	height: auto;
+	position: fixed;
+	background: url(../images/ui/glass.png);
+	background-color: rgba(210, 210, 210, 0.8);
+	font-size: 18px;
+}
+
+#buttonBox {
+	width: 100%;
+}
+
+.registerForm input {
+	height: 35px;
+}
+
+input[type="radio"] {
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+	text-align: center;
+	cursor: pointer;
+}
+
+label img {
+	margin: 5px 25px 5px 25px;
+	border-radius: 5px;
+}
+
+label img:hover {
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	box-shadow: 4px 4px 4px rgb(87, 62, 27);
+	border-top: 2px solid white;
+	border-left: 2px solid white;
+} 
+
+input:checked+img {
+	transform: scale(1);
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	box-shadow: inset 2px 2px 2px rgb(87, 62, 27);
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+}
+
+input:checked+img:hover {
+	transform: scale(1);
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	box-shadow: inset 2px 2px 2px rgb(87, 62, 27);
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+	border-top: none;
+	border-left: none;
+}
+
+#femalePortrait {
+	padding-bottom: 5px;
+	padding-top: 9px;
+	height: 100px;
+	width: 100%;
+	align-content: center;
+}
+
+#malePortrait {
+	padding-bottom: 5px;
+	padding-top: 9px;
+	height: 100px;
+	width: 100%;
+	align-content: center;
+}
+
+#femalePortrait input[type="radio"] {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+
+#malePortrait input[type="radio"] {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+
+.subTitle {
+	background: url(../images/ui/subTitle.png) scroll;
+	background-size: 100%;
+	border-color: #808080;
+	width: 100%;
+	height: 33px;
+	text-align: center;
+	font-size: 20px;
+}
+
+#register_submit {
+	background-color: rgb(63, 125, 195);
+	color: white;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	cursor: pointer;
+	width: 100px;
+	margin-left: 5px;
+}
+
+#back_button {
+	background-color: rgb(226, 80, 90);
+	color: white;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	cursor: pointer;
+	width: 100px;
+	margin-right: 5px;
+}
+
+.active {
+	box-shadow: inset 0px 2px 8px 2px #000000;
+	border: 1px #666 solid;
+	border-left: 1px #131313 solid;
+	border-top: 1px #131313 solid;
+}

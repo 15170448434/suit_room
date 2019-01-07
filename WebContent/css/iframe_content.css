@@ -1,0 +1,181 @@
+* {
+	moz-user-select: -moz-none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	list-style: none;
+}
+
+body {
+	backgroud:transprarent;
+}
+
+tr {
+	display: block;
+}
+
+.background_re {
+	background-size: 100%;
+	width: 100%;
+	height: 100%;
+}
+
+.changeForm {
+	margin-top: 10%;
+	margin-left: 22%;
+	width: 550px;
+	height: auto;
+	position: relative;
+	/*background-color: rgba(0, 0, 0, 0 ~ 1);*/
+	background-color: rgba(202, 225, 255, 0.5);
+	box-shadow: -4px 7px 46px 2px rgba(0, 0, 0, 0.3);
+}
+
+.top {
+	width: 100%;
+	height: 170px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.form {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size:24px;
+}
+.form tr,.form td{
+	font-size:22px;
+}
+.form input{
+	width: 430px;
+	height: 50px;
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	background: transparent;
+	font-size: 23px;
+	outline: none;
+}
+
+.form input:active
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5); 
+	outline: none;
+}
+
+.form input:focus {
+	outline: none;
+	 border-bottom-color: #808080; 
+}
+
+.form input::-webkit-input-placeholder {
+	font-size: 24px;
+}
+
+label {
+	cursor: pointer;
+}
+
+.topText {
+	background-color: rgba(0, 0, 1, 0.5);
+	color: white;
+	text-align: center;
+	vertical: middle;
+	height: 50px;
+	font-size: 32px;
+}
+
+.registerForm input {
+	height: 35px;
+}
+
+input[type="radio"] {
+	transform:scale(1.7,1.7);
+	margin-right: 5px;
+	text-align: center;
+}
+
+label img:hover {
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	box-shadow: 4px 4px 4px rgb(87, 62, 27);
+	border-top: 2px solid white;
+	border-left: 2px solid white;
+}
+
+input:checked+img {
+	transform: scale(1);
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	box-shadow: inset 2px 2px 2px rgb(87, 62, 27);
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+}
+
+input:checked+img:hover {
+	transform: scale(1);
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	box-shadow: inset 2px 2px 2px rgb(87, 62, 27);
+	border-bottom: 2px solid white;
+	border-right: 2px solid white;
+	border-top: none;
+	border-left: none;
+}
+
+#femalePortrait {
+	padding: 10px;
+	height: 105px;
+	width: 100%;
+	align-content: center;
+}
+
+#malePortrait {
+	padding: 10px;
+	height: 105px;
+	width: 100%;
+	align-content: center;
+}
+
+#femalePortrait input[type="radio"] {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+
+#malePortrait input[type="radio"] {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+
+.subTitle {
+	background: url(../images/ui/subTitle.png);
+	background-size: 100%;
+	border-color: #808080;
+	width: 550px;
+	height: 50px;
+	text-align: center;
+	font-size: 25px;
+}
+
+#save_button {
+	background-color: rgba(127, 127, 109,0.6);
+	color: white;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	cursor: pointer;
+	width: 150px;
+	font-size:28px;
+	margin-right: 5px;
+}
+
+#nameArea{
+	border: none;
+	background: transparent;
+	outline: none;
+	font-size: 28px;
+}
+

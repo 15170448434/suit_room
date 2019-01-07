@@ -1,0 +1,149 @@
+* {
+	moz-user-select: -moz-none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	list-style: none;
+}
+
+tr {
+	display: block;
+}
+
+.all {
+	background: url(../images/ui/windows.jpg) no-repeat center center;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+}
+.loginForm {
+	box-shadow: -4px 7px 46px 2px rgba(0, 0, 0, 0.3);
+	margin-top:10%;
+	margin-left:65%;
+	width: 300px;
+	height: 400px;
+	text-align: center;
+	background-color: rgba(	240,230,140, 0.5);
+	position: fixed;
+}
+
+.top {
+	width: 100%;
+	height: 170px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.form {
+	width: 100%;
+	height: auto;
+}
+
+.form input[type="text"], input[type="password"] {
+	width: 250px;
+	height: 40px;
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	background: transparent;
+	/*text-transform: lowercase;*/
+	font-size: 20px;
+	outline: none;
+}
+
+.form input[type="text"]:active, input[type="password"]:active {
+	border: none;
+	/*border-bottom: 1px solid rgba(0, 0, 0, 0.4);*/
+}
+
+.form input[type="text"]:focus, input[type="password"]:focus {
+	border-bottom-color: #808080;
+}
+
+.form input[type="text"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder
+	{
+	/*text-transform: lowercasecase;*/
+	font-size: 20px;
+	color:rgb(255,248,220);
+}
+
+#login_button {
+	border-radius: 16px;
+	width: 250px;
+	height: 40px;
+	background-color: rgba(82, 82, 85, 0.8);
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	-webkit-box-shadow: rgba(82, 82, 85, 0.5) 0px 10px 16px;
+	-moz-box-shadow: rgba(82, 82, 85, 0.5) 0px 10px 16px;
+	-o-box-shadow: rgba(82, 82, 85, 0.5) 0px 10px 16px;
+	box-shadow: rgba(82, 82, 85, 0.5) 0px 10px 16px;
+	color: white;
+	margin: 10px;
+	cursor: pointer;
+}
+
+#register_button {
+	border-radius: 16px;
+	width: 260px;
+	height: 40px;
+	background-color: rgba(178, 180, 184, 0.8);
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	-webkit-box-shadow: rgba(178, 180, 184, 0.5) 0px 10px 16px;
+	-moz-box-shadow: rgba(178, 180, 184, 0.5) 0px 10px 16px;
+	-o-box-shadow: rgba(178, 180, 184, 0.5) 0px 10px 16px;
+	box-shadow: rgba(178, 180, 184, 0.5) 0px 10px 16px;
+	color: white;
+	margin: 5px;
+	cursor: pointer;
+}
+#login_button:hover {
+	-webkit-box-shadow: rgba(178, 180, 184, 0.5) 0 0 4px;
+	-moz-box-shadow: rgba(178, 180, 184, 0.5) 0 0  4px;
+	-o-box-shadow: rgba(178, 180, 184, 0.5) 0 0 4px;
+	box-shadow: rgba(178, 180, 184, 0.5) 0 0 4px;
+}
+#register_button:hover {
+	-webkit-box-shadow: rgba(178, 180, 184, 0.5) 0 0 4px;
+	-moz-box-shadow: rgba(178, 180, 184, 0.5) 0 0  4px;
+	-o-box-shadow: rgba(178, 180, 184, 0.5) 0 0 4px;
+	box-shadow: rgba(178, 180, 184, 0.5) 0 0 4px;
+}
+
+.logoImg {
+	position: fixed;
+	margin: 5% 15%;
+}
+.logoFont {
+	position: fixed;
+	margin:4% 61%;
+}
+.pleaselogin{
+	position: fixed;
+	margin: 18% 80%;
+}
+.logoImg img:hover{
+	
+}
+
+
+/*input{
+	width: 260px;
+	height: 40px;
+	font-size: 20px;
+	background-image: url(../img/ui/metal.png);
+	border-radius: 20px;
+	/*box-shadow: -2px 10px 20px -1px rgba(51, 204, 204, 0.3);*/
+
+/*border: none;
+	color: black;
+
+}*/
+
+/*.register input:hover {
+	cursor: pointer;
+	/*background-color: #09F7F7;
+}*/
